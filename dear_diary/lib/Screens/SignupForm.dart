@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:login_with_signup/Comm/comHelper.dart';
-import 'package:login_with_signup/Comm/genLoginSignupHeader.dart';
-import 'package:login_with_signup/Comm/genTextFormField.dart';
-import 'package:login_with_signup/DatabaseHandler/DbHelper.dart';
-import 'package:login_with_signup/Model/UserModel.dart';
-import 'package:login_with_signup/Screens/LoginForm.dart';
+
+import '../Comm/comHelper.dart';
+import '../Comm/genLoginSignupHeader.dart';
+import '../Comm/genTextFormField.dart';
+import '../DatabaseHandler/DbHelper.dart';
+import '../Model/UserModel.dart';
+import 'LoginForm.dart';
 
 class SignupForm extends StatefulWidget {
   @override

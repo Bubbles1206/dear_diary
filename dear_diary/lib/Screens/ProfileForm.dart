@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:login_with_signup/Comm/comHelper.dart';
-import 'package:login_with_signup/Comm/genTextFormField.dart';
-import 'package:login_with_signup/DatabaseHandler/DbHelper.dart';
-import 'package:login_with_signup/Model/UserModel.dart';
-import 'package:login_with_signup/Screens/HomeScreen.dart';
-import 'package:login_with_signup/Screens/LoginForm.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../Comm/comHelper.dart';
+import '../Comm/genTextFormField.dart';
+import '../DatabaseHandler/DbHelper.dart';
+import '../Model/UserModel.dart';
+import 'HomeScreen.dart';
+import 'LoginForm.dart';
 
 class ProfileForm extends StatefulWidget {
   @override

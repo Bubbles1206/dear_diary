@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_calendar_carousel/classes/event.dart';
 import 'package:flutter_calendar_carousel/flutter_calendar_carousel.dart';
 import 'package:intl/intl.dart';
-import 'package:login_with_signup/DatabaseHandler/DiaryDBHelper.dart';
-import 'package:login_with_signup/Model/DiaryModel.dart';
-import 'package:login_with_signup/Screens/ProfileForm.dart';
-import 'package:login_with_signup/Screens/SpeechScreen.dart';
-import 'package:login_with_signup/Widgets/DiaryListTile.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../DatabaseHandler/DiaryDBHelper.dart';
+import '../Model/DiaryModel.dart';
+import '../Widgets/DiaryListTile.dart';
+import 'ProfileForm.dart';
+import 'SpeechScreen.dart';
 import 'TestScrene.dart';
 
 class HomeScreen extends StatefulWidget {

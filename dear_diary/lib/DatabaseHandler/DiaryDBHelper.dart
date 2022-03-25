@@ -1,9 +1,10 @@
 import 'dart:io' as io;
 
-import 'package:login_with_signup/Model/DiaryModel.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
+
+import '../Model/DiaryModel.dart';
 
 class DiaryDbHelper {
   static Database _db;

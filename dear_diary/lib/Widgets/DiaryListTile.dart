@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:login_with_signup/Model/DiaryModel.dart';
+
+import '../Model/DiaryModel.dart';
 
 class DiaryListTile extends StatefulWidget {
   final DiaryModel diaryModel;
